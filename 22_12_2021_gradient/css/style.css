@@ -1,0 +1,96 @@
+div{
+    height: 200px;
+}
+.one{
+    background: linear-gradient(90deg, red,blue,white);
+}
+.two{
+    background: repeating-linear-gradient(90deg, purple, purple 5px, pink 5px, pink 10px, darkblue 10px, darkblue 20px);
+}
+.three{
+    background: repeating-linear-gradient(90deg, rgba(87, 87, 168, 0.5), rgba(87, 87, 168, 0.5) 10px, rgba(0,45,23,0.8) 15px, rgba(78,55,125,0.3) 20px, rgba(129,59,0,0.8) 25px, rgba(73,149,23,0.6) 10px );
+}
+.flag{
+    height: 100px;
+    width: 150px;
+    border: 1px solid black;
+    background: linear-gradient(45deg, red 40%,#fff 40%,#fff 44%, black 44%, black 56%, #fff 56%, #fff 60%, red 60%, red 60%);
+}
+.flower{
+    width: 300px;
+    margin: 0 auto;
+}
+.leaf{
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+.topL{
+    border-radius: 0 50%;
+    background: linear-gradient(135deg, red, black);
+}
+.topR{
+    border-radius: 50% 0;
+    background: linear-gradient(225deg, green, black);
+}
+.bottomL{
+    border-radius: 0 50%;
+    background: linear-gradient(290deg, yellow, black);
+}
+.bottomR{
+    border-radius: 50% 0;
+    background: linear-gradient(45deg, purple, black);
+
+}
+.kub{
+    height: 300px;
+    width: 300px;
+    margin: 155px auto;
+    background: purple;
+}
+.blok{
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+.sqL{
+    background: linear-gradient(135deg, rgba(225,255,255,0.2) 25%, transparent 25%, transparent 50%, rgba(225,255,255, 0.2) 50%, rgba(225,255,255, 0.2) 75%, transparent 75%);
+}
+.sqR{
+    background: linear-gradient(225deg, rgba(225,255,255,0.3) 25%, transparent 25%, transparent 50%,rgba(225,255,255,0.3) 50%, rgba(225,255,255,0.3) 75%, transparent 75%);
+}
+.btL{
+    background: linear-gradient(45deg, rgba(225,255,255,0.4) 25%, transparent 25%, transparent 50%,rgba(225,255,255,0.4) 50%, rgba(225,255,255,0.4) 75%, transparent 75% );
+}
+.btR{
+    background: linear-gradient(315deg, rgba(225,255,255,0.5) 25%, transparent 25%, transparent 50%,rgba(225,255,255,0.5) 50%, rgba(225,255,255,0.5) 75%, transparent 75% );
+
+}
+p{
+    font-size: 100px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, rgb(147, 62, 204), rgb(90, 212, 212));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text2{
+    background: repeating-linear-gradient(315deg, rgb(154, 69, 211,0.5), rgb(154, 69, 211,0.8) 25px, rgb(43, 130, 156,0.9) 10px, rgb(37, 126, 57,0.4) 15px, rgb(134, 111, 115,0.1) 20px);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text3{
+    background: repeating-linear-gradient(155deg, green, green 10px, darkred 15px, grey 15px, yellow 10px);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.cat{
+    width: 700px;
+    height: 420px;
+    border-image-source: url(../img/1.png);
+    border-image-slice: fill 66;
+    background-image: url(../img/очки.png) ,url(../img/cat.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%, 100%;
+    background-position: 70% 48%, 50% 50%;
+
+}
